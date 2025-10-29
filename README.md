@@ -60,7 +60,7 @@ pnpm run dev
 
 ## Tests (API)
 ```bash
-cd apps/api && npm run test
+pnpm -C apps/api test
 ```
 
 ### After running tests the db is cleared so you need to run this command again
