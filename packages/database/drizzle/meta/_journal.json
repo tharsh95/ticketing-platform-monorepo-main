@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1761326205122,
+      "tag": "0000_worthless_star_brand",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1761460377070,
+      "tag": "0001_wealthy_odin",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1761460772920,
+      "tag": "0002_sad_wallop",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1761462503507,
+      "tag": "0003_numerous_lord_tyger",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1761564225154,
+      "tag": "0004_modern_leo",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1761575590195,
+      "tag": "0005_curious_starjammers",
+      "breakpoints": true
+    }
+  ]
+}

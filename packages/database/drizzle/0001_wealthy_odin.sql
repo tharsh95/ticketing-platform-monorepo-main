@@ -1,0 +1,1 @@
+ALTER TABLE "events" ADD COLUMN "total_tickets" varchar(255);
