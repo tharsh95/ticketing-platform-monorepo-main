@@ -30,7 +30,7 @@ Full‑stack event ticketing platform with dynamic pricing.
 ## Quick Start
 ```bash
 # 1)Clone repo
-git clone  && cd ticketing-platform-monorepo &&  pnpm install
+git clone https://github.com/tharsh95/ticketing-platform-monorepo-main.git && cd ticketing-platform-monorepo &&  pnpm install
 
 # 2) Configure environment
 # Create a root .env if needed (API reads from repo root)
