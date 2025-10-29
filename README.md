@@ -31,27 +31,32 @@ Full‑stack event ticketing platform with dynamic pricing.
 ```bash
 # 1)Clone repo
 git clone https://github.com/tharsh95/ticketing-platform-monorepo-main.git && cd ticketing-platform-monorepo &&  pnpm install
-
+```
+```bash
 # 2) Configure environment
 # Create a root .env if needed (API reads from repo root)
 echo "PORT=3001" > .env
-
+```
+```bash
 # Also create packages/database/.env with your DB URL
 mkdir -p packages/database
 echo "DATABASE_URL=postgresql://user@localhost:5432/ticketing_platform" > packages/database/.env
-
+```
+```bash
 # 3) Create database (example)
 createdb ticketing_platform || true
-
+```
+```bash
 # 4) Push schema & seed data (database package)
 pnpm -C packages/database run db:push && pnpm -C packages/database run db:seed
-
+```
+```bash
 # 5) Build everything
 pnpm run build
-
+```
+```bash
 # 6) Run all apps in dev
 pnpm run dev
-
 ```
 
 # Tests (API)
